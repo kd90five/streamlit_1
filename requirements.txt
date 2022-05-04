@@ -1,5 +1,5 @@
 pandas
-matplotlib.pyplot
+matplotlib
 streamlit
 matplotlib
 scipy==1.4.1
