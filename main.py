@@ -4,6 +4,9 @@ import pandas as pd, matplotlib.pyplot as plt, seaborn as sns
 import streamlit as st
 import re, string
 
+import nltk
+nltk.download("wordnet")
+
 from nltk.corpus import stopwords, wordnet
 from nltk.tokenize import WhitespaceTokenizer
 from nltk.stem import WordNetLemmatizer
