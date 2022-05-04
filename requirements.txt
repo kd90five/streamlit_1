@@ -1,6 +1,15 @@
-pandas
-plotly
-streamlit
+pandas as pd
+matplotlib.pyplot as plt
+streamlit as st
 matplotlib
 scipy==1.4.1
 scikit-learn
+seaborn as sns
+re
+string
+io
+from nltk.corpus import stopwords, wordnet
+from nltk.tokenize import WhitespaceTokenizer
+from nltk.stem import WordNetLemmatizer
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+from nltk import pos_tag
