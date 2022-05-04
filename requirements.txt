@@ -6,6 +6,5 @@ scipy==1.4.1
 scikit-learn
 seaborn
 regex
-string
-io
+python
 nltk
