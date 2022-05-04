@@ -5,7 +5,7 @@ matplotlib
 scipy==1.4.1
 scikit-learn
 seaborn
-re
+regex
 string
 io
 nltk
