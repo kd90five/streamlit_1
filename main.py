@@ -1,16 +1,3 @@
-import io
-
-import pandas as pd, matplotlib.pyplot as plt, seaborn as sns
-import streamlit as st
-import re, string
-
-from nltk.corpus import stopwords, wordnet
-from nltk.tokenize import WhitespaceTokenizer
-from nltk.stem import WordNetLemmatizer
-from nltk.sentiment.vader import SentimentIntensityAnalyzer
-from nltk import pos_tag
-
-
 st.title("Jr Data Scientist - Evaluation -1")
 
 st.sidebar.subheader("File Upload")
